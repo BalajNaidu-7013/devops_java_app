@@ -8,11 +8,11 @@ pipeline{
             
             steps{
                 
-                    gitCheckout{
+                    gitCheckout(
 
                        branch: "main", 
                        url: "https://github.com/BalajNaidu-7013/devops_java_app.git"
-                    }
+                    )
                     
                 }
             }
