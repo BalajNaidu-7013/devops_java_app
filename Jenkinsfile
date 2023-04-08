@@ -6,9 +6,8 @@ pipeline{
     stages{
         stage('Git Checkout'){
             
-            steps {
-                script{
-
+            steps{
+                
                     gitCheckout{
 
                        branch: 'main', 
@@ -19,4 +18,3 @@ pipeline{
             }
         }
     }
-}
